@@ -53,7 +53,7 @@ function App() {
       </div>
 
       {/* Emoji List */}
-      <div className="p-6 min-h-screen w-100" style={{ backgroundColor: '#F0F1F3' }}>
+      <div className="p-6 min-h-screen w-full" style={{ backgroundColor: '#F0F1F3' }}>
         <EmojiList emojis={filteredEmojis} />
       </div>
       {/* Help Modal */}
